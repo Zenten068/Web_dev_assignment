@@ -1,0 +1,51 @@
+body{ font-family: 'Roboto' sans-serif;}
+
+hr{border: 2px solid rgb(0, 0, 255);}
+
+header{background-color: #ea8280; color: rgb(0, 0, 0); text-align: center; padding: 0em  ;font-size: 20px;}
+
+footer {background-color: #ea8280; color: rgb(0, 0, 0); text-align: center; padding: 1em; font-size: 20px;}
+
+h2{text-align: center; size: 120px;}
+
+.link {text-decoration: none; color: rgb(16, 16, 16); font-weight: bold;  font-size: 20px; 
+     align-items: center; margin: 10px 10px;  }
+a:hover {text-decoration:underline; background-color:  #edb69a; color: rgb(255, 255, 255); position:relative; padding : 1px 1px;}
+
+h2{ font-size: 35px; text-align: center; color: rgb(44, 44, 44);background-color: #ea8280ad ; padding: 6px; }
+
+#about,#projects,#skills,#contact{ margin: 20px; padding: 20px;  background-color: #f4f4f4;}
+
+#img{ display: block; margin-left: auto; margin-right: auto; border-radius: 50%;}
+.about{ font-size: 20px; text-align: center; color: rgb(0, 0, 0); }
+
+.proj{ width: 400px; border: 3px solid #0000ff; padding: 10px; margin: 55px auto; background-color: #f4f4f4; 
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); border-radius: 8px; }
+
+.proj h3{ color: #000086; font-size: 25px; margin-top: 0;  font-weight: bold;}
+
+.proj p{  color: #000000; text-align: center; margin-top: 0; font-size: 20px; font-weight: bold;}
+
+table{ width: 60%;  padding: 10px; margin: 10px; border-collapse: collapse; border-width: 3px ; border-color: #0000ff; 
+     margin-left: auto; margin-right: auto; background-color: #f4f4f4; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);}
+
+
+th{ background-color: #0000ff; color: #000000; font-weight: bold; font-size:35px ; 
+     padding: 10px; border-width: 3px;  }
+td{  padding: 10px; text-align: center; font-size: 30px;  border-width: 3px;  }
+
+form{ width: 60%; padding: 20px; margin: 20px; border: 3px solid #0000ff; border-radius: 8px; 
+     margin-left: auto; margin-right: auto; background-color: #f4f4f4; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);}
+
+input[type="text"], input[type="email"],input[type="tel"] ,textarea{ 
+     width: 100%; padding: 10px; margin: 10px ; border: 3px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 20px;}
+
+.form{text-align: center; margin: 10px; font-size: 20px; color: rgb(0, 0, 225); font-weight: bold; font-size: 30px;}
+
+
+input[type="submit"]{ background-color: #0000ff; color: white; padding: 10px 20px; border: none; border-radius: 4px; 
+     cursor: pointer; font-size: 20px; display: block; margin-left: auto; margin-right: auto;   }
+input[type="submit"]:hover{ background-color: #5555ff; }
+
+.top{ display: block; width: 100px; margin: 10px 1450px; padding: 10px; background-color: #0000ff; color: white; 
+     text-align: center; border-radius: 4px; text-decoration: none; font-size: 20px; }

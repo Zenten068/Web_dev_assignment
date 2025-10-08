@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section id="top"> 
+<header >
+    <h1>MY PORTFOLIO</h1> 
+
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#projects">Projects</a>
+        <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#contact">Contact</a>
+</header>
+</section> 
+
+<hr>
+
+<main>
+<section id="about">
+    <h2>About Me</h2>
+    <P class="about">Hello! My name is <b>Aman Saklani</b>, I am a CyberSecurity student in KR Mangalam University.<br> And this is my personal portfolio website project for my web development class.</P>
+    <img src="profile.jpg" alt="Profile Picture" width="200" height="200" title="Aman" id="img"><br>
+    <p class="about">I am a passionate learner and aspiring cybersecurity professional, I enjoy exploring new technologies and enhancing my skills in web development and ethical hacking.</p>
+    <p class="about">Expertise in scripting and logic in Python, actively sharpening algorithmic problem-solving via LeetCode.</p>
+    <p class="about">I convert ideas into prototypes through competitive events, participated in hackathons like SIH etc.</p>
+</section>
+
+
+<section id="projects">
+<hr>
+    <h2>My Projects</h2>
+    <div class="proj">
+        <h3 class=proj ><b>Portfolio Website: </b></h3>
+        <p>A personal one-page website to showcase my bio, skill and contact details.</p>
+    </div> 
+    <div class="proj">
+        <h3 class=proj ><b>User Form: </b></h3>
+        <p>A form webpage with fields like name, email and message for practicing form handling.</p>
+    </div>
+    <div class="proj">
+        <h3 class=proj ><b>Calorie Tracker: </b></h3>
+        <p>A simple, CLI application in Python that allow user to log and monitor their daily food intake.</p>
+    </div>
+    <div class="proj">
+        <h3 class=proj ><b>Password Strength Analyzer: </b></h3>
+        <p>A real-time feedback application on the security level of a password as a user types it.</p>
+    </div>
+
+</section>
+
+<section id="skills">   
+<hr>
+    <h2>Technical Skills</h2>
+<table border="2" cellpadding="3" cellspacing="2" width="18%"  >
+    <thead>
+        <tr>
+            <th>Skills</th>
+            <th>Level</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>HTML</td>
+            <td rowspan="2">Intermediate</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+          
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td rowspan="2">Beginner</td>
+        </tr>
+        
+        <tr>
+            <td>Vanilla JavaScript</td>
+           
+        </tr>
+
+        <tr>
+            <td>Smart Contracts</td>
+            <td>Learning</td>  
+        </tr>
+    </tbody>
+</table>
+</section>
+
+<hr>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit" method="post" target="_self">
+
+        <label for="name" class="form" >Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name..." required><br><br>
+
+        <label for="email" class="form">Email Id:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email..." required><br><br>
+    
+        <label for="number" class="form">Phone Number:</label><br>
+        <input type="tel" id="number" name="number"  placeholder="+91 XXXXX XXXXX" maxlength="10" required><br><br>
+
+        <label for="message" class="form">Message:</label>
+        <textarea id="message" name="message" rows="3" cols="30" placeholder="any message for me(optional)"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+<a class="top" href="#top">Back At Top</a>
+</section>
+
+
+</main><br><hr>
+
+<footer>
+    <p> &copy; 2025 Copyright Aman Saklani. </p>
+</footer>
+
+</body>
+</html>
