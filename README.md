@@ -29,19 +29,32 @@
 
 ```port.css```
 
-## Assignment 3: Portfolio with polished and interactive user experience.
+## Assignment 3: Portfolio with polished and interactive user experience
 > A fully responsive, professional single-page portfolio designed to showcase bio, projects, and skills, leveraging modern CSS for a polished and interactive user experience.
 > 
 ### Enhancements
 - **Fluid & Responsive Layout:** CSS Grid & Flexbox was applied.
-- **Interactive Visuals:** Hover Effects were added to project cards, creating a subtle "lift" effect 
+- **Interactive Visuals:** Hover Effects were added to project cards, creating a subtle "lift" effect.
 - **Transitions:** Smooth CSS Transitionswere applied globally to ensure all state changes (like hovers and color changes) feel polished, not jarring.
-- **Enhanced Visual Engagement:** A simple Keyframe Animation (float) was added to the profile image
+- **Enhanced Visual Engagement:** A simple Keyframe Animation (float) was added to the profile image.
 
 ### Files
 ```Portfolio3.html```
 
 ```style.css```
 
+## Assignment 4: JavaScript Console Quiz Gam
+> A simple, interactive quiz designed to run directly within the browser's developer console using pure JavaScript, prompt(), and alert() for user interaction.
+
+### Enhancements
+- **Multiple-Choice Format:** Questions are presented with lettered options (A, B, C, D) for straightforward answering.
+- **Contextual Feedback & Hints:** Provides immediate feedback for every answer, including a specific hint for incorrect responses to aid learning.
+- **Score-Based Messaging:** Displays a personalized motivational message at the end based on the user's final score percentage.
+- **Restart Option:** Allows the user to easily restart the entire quiz without refreshing the page.
+- 
+### Files
+```quiz.html```
+
+```java_quiz.js```
 
 By Aman Saklani
