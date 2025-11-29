@@ -1,6 +1,6 @@
 # Web Development Lab Assignments
 
-> This repository contains two portfolio website projects created for a web development class. The first assignment is a basic HTML page, and the second assignment enhances the first by adding external CSS for styling.
+> This repository contains four assignments projects created for web development class.
 
 ## Assignment 1: Basic HTML Portfolio
 
@@ -28,6 +28,20 @@
 ```Portfolio2.html```
 
 ```port.css```
+
+## Assignment 3: Portfolio with polished and interactive user experience.
+> A fully responsive, professional single-page portfolio designed to showcase bio, projects, and skills, leveraging modern CSS for a polished and interactive user experience.
+> 
+### Enhancements
+- **Fluid & Responsive Layout:** CSS Grid & Flexbox was applied.
+- **Interactive Visuals:** Hover Effects were added to project cards, creating a subtle "lift" effect 
+- **Transitions:** Smooth CSS Transitionswere applied globally to ensure all state changes (like hovers and color changes) feel polished, not jarring.
+- **Enhanced Visual Engagement:** A simple Keyframe Animation (float) was added to the profile image
+
+### Files
+```Portfolio3.html```
+
+```style.css```
 
 
 By Aman Saklani
