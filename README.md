@@ -51,7 +51,7 @@
 - **Contextual Feedback & Hints:** Provides immediate feedback for every answer, including a specific hint for incorrect responses to aid learning.
 - **Score-Based Messaging:** Displays a personalized motivational message at the end based on the user's final score percentage.
 - **Restart Option:** Allows the user to easily restart the entire quiz without refreshing the page.
-- 
+
 ### Files
 ```quiz.html```
 
