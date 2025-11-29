@@ -79,7 +79,7 @@ function runQuiz() {
             const currentQ = quizQuestions[i];
 
             const optionsDisplay = currentQ.options.map((opt, index) => 
-                `${String.fromCharCode(65 + index)}: ${opt}` // Example: A: Hexagon
+                `${String.fromCharCode(65 + index)}: ${opt}`
             ).join('\n');
 
             const promptText = `Question ${i + 1} of ${totalQuestions}:\n${currentQ.question}\n\n${optionsDisplay}\n\nEnter the letter (A | B | C | D):`;
@@ -131,4 +131,5 @@ function runQuiz() {
     
     console.log("Quiz session finished. \nThank you for playing!");
 }
+
 
